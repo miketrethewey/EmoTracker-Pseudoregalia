@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Dilapidated Dungeon Entrances",
+    "children": [
+      {
+        "name": "Late Prison",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": [
+              "dreambreaker,@CsMain/Access",
+              "dreambreaker,@PEntryUnderBelly/Access",
+              "dreambreaker,@Early Prison/Access",
+              "$trick|knowledge,sunsetter,@CsMain/Access",
+              "$trick|knowledge,sunsetter,@PEntryUnderBelly/Access",
+              "$trick|knowledge,sunsetter,@Early Prison/Access"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "Early Prison",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": [
+              "",
+              "@CsMain/Access",
+              "$EarlyPrison|Setup,@StrongEyes/Access,$EarlyPrison|Shortcut near Strong Eyes",
+              "$EarlyPrison|Setup,@VDreamBreaker/Access",
+              "$EarlyPrison|Setup,@Late Prison/Access",
+              "@VDreamBreaker/Access,sungreaves,$trick|movement|expert,$trick|onewall|advanced",
+              "@VDreamBreaker/Access,sungreaves,solarwind,$trick|movement|advanced,$trick|onewall|advanced",
+              "@VDreamBreaker/Access,sunsetter,$trick|knowledge|expert"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "PEntryUnderBelly",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": [
+                "@Late Prison/Access,$PEntryUnderBelly|Wall that Sucks",
+                "@PrisonHole/Access,ascendantlight"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "VDreamBreaker",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": ["@Early Prison/Access"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "StrongEyes",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": [
+                "@Late Prison/Access,slide",
+                "@CsMain/Access,$EarlyPrison|Shortcut near Strong Eyes"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "PEntryCastle",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": [
+              "@CsPrisonEntry/Access",
+              "@StrongEyes/Access,smallkey",
+              "@Early Prison/Access,solarwind,sungreaves,heliacalpower,sunsetter,clinggem:6,$trick|clingabuse|expert,$trick|movement|expert,$trick|momentum|advanced"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "PEntryTheatre",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": [
+              "@ThDungeonEntry/Access",
+              "@Late Prison/Access,$has_or|sungreaves|ascendantlight",
+              "@Late Prison/Access,clinggem:6"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,6 +1,7 @@
 -- LOGIC
 print("Loading Logic")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
+ScriptHost:LoadScript("scripts/logic/locations/dungeon.lua")
 print("")
 
 -- ITEMS
@@ -17,6 +18,7 @@ print("")
 
 -- LOCATIONS
 print("Loading Locations")
+Tracker:AddLocations("locations/dungeon/entrances.json")
 Tracker:AddLocations("locations/dungeon/dungeon.json")
 Tracker:AddLocations("locations/lowerCastle/lowerCastle.json")
 Tracker:AddLocations("locations/library/library.json")
