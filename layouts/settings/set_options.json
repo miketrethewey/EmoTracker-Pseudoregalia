@@ -1,0 +1,55 @@
+{"set_options": {
+  "type": "array",
+  "content": [
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_abilities"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_outfits"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_health"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_goatlings"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_smallKeys"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_bigKeys"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_notes"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_chairs"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_splitGreaves"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_splitCling"
+    }
+  ]
+}}

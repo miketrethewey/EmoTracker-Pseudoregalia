@@ -7,49 +7,31 @@
     "children": [
       {
         "name": "on a beam in the corner",
-        "map_locations": [
-          {
-            "map": "theatre",
-            "x": 560,
-            "y": 1495
-          }
-        ],
+        "map_locations": [{"map": "theatre", "x": 560, "y": 1495}],
         "sections": [
           {
             "name": "Ability",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
+            "visibility_rules": ["opt_abilities"]
           }
         ]
       },
       {
         "name": "the locked up time trial",
-        "map_locations": [
-          {
-            "map": "theatre",
-            "x": 750,
-            "y": 1520
-          }
-        ],
+        "map_locations": [{"map": "theatre", "x": 750, "y": 1520}],
         "sections": [
           {
             "name": "Outfit",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_outfits" ]
+            "visibility_rules": ["opt_outfits"]
           }
         ]
       },
       {
         "name": "a chair around the table",
-        "map_locations": [
-          {
-            "map": "theatre",
-            "x": 1010,
-            "y": 50
-          }
-        ],
+        "map_locations": [{"map": "theatre", "x": 1010, "y": 50}],
         "sections": [
           {
             "name": "Chair",
@@ -57,19 +39,13 @@
             "chest_unopened_img": "images/chair_unopened.png",
             "access_rules": [],
             "item_count": 3,
-            "visibility_rules": [ "opt_chairs" ]
+            "visibility_rules": ["opt_chairs"]
           }
         ]
       },
       {
         "name": "the chair next to the books",
-        "map_locations": [
-          {
-            "map": "theatre",
-            "x": 1325,
-            "y": 430
-          }
-        ],
+        "map_locations": [{"map": "theatre", "x": 1325, "y": 430}],
         "sections": [
           {
             "name": "Chair",
@@ -77,19 +53,13 @@
             "chest_unopened_img": "images/chair_unopened.png",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_chairs" ]
+            "visibility_rules": ["opt_chairs"]
           }
         ]
       },
       {
         "name": "goatlings at the entrance",
-        "map_locations": [
-          {
-            "map": "theatre",
-            "x": 950,
-            "y": 1070
-          }
-        ],
+        "map_locations": [{"map": "theatre", "x": 950, "y": 1070}],
         "sections": [
           {
             "name": "Goatling",
@@ -97,19 +67,13 @@
             "chest_unopened_img": "images/goatling_unopened.png",
             "access_rules": [],
             "item_count": 4,
-            "visibility_rules": [ "opt_goatlings" ]
+            "visibility_rules": ["opt_goatlings"]
           }
         ]
       },
       {
         "name": "hiding amid the boxes",
-        "map_locations": [
-          {
-            "map": "theatre",
-            "x": 630,
-            "y": 790
-          }
-        ],
+        "map_locations": [{"map": "theatre", "x": 630, "y": 790}],
         "sections": [
           {
             "name": "Health",
@@ -117,19 +81,13 @@
             "chest_unopened_img": "images/items/heartpiece-Full.png",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_health" ]
+            "visibility_rules": ["opt_health"]
           }
         ]
       },
       {
         "name": "the goatling that will kill again",
-        "map_locations": [
-          {
-            "map": "theatre",
-            "x": 680,
-            "y": 860
-          }
-        ],
+        "map_locations": [{"map": "theatre", "x": 680, "y": 860}],
         "sections": [
           {
             "name": "Goatling",
@@ -137,19 +95,13 @@
             "chest_unopened_img": "images/goatling_unopened.png",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_goatlings" ]
+            "visibility_rules": ["opt_goatlings"]
           }
         ]
       },
       {
         "name": "the chair near the courtyard",
-        "map_locations": [
-          {
-            "map": "theatre",
-            "x": 1100,
-            "y": 680
-          }
-        ],
+        "map_locations": [{"map": "theatre", "x": 1100, "y": 680}],
         "sections": [
           {
             "name": "Chair",
@@ -157,19 +109,13 @@
             "chest_unopened_img": "images/chair_unopened.png",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_chairs" ]
+            "visibility_rules": ["opt_chairs"]
           }
         ]
       },
       {
         "name": "the chair in the soul cutter zone",
-        "map_locations": [
-          {
-            "map": "theatre",
-            "x": 30,
-            "y": 860
-          }
-        ],
+        "map_locations": [{"map": "theatre", "x": 30, "y": 860}],
         "sections": [
           {
             "name": "Chair",
@@ -177,19 +123,13 @@
             "chest_unopened_img": "images/chair_unopened.png",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_chairs" ]
+            "visibility_rules": ["opt_chairs"]
           }
         ]
       },
       {
         "name": "behind three maximum security cages",
-        "map_locations": [
-          {
-            "map": "theatre",
-            "x": 650,
-            "y": 540
-          }
-        ],
+        "map_locations": [{"map": "theatre", "x": 650, "y": 540}],
         "sections": [
           {
             "name": "Big Key",
@@ -197,37 +137,25 @@
             "chest_unopened_img": "images/items/ui_BigKey.png",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_bigKeys" ]
+            "visibility_rules": ["opt_bigKeys"]
           }
         ]
       },
       {
         "name": "where soul cutter normally is",
-        "map_locations": [
-          {
-            "map": "theatre",
-            "x": 500,
-            "y": 400
-          }
-        ],
+        "map_locations": [{"map": "theatre", "x": 500, "y": 400}],
         "sections": [
           {
             "name": "Ability",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
+            "visibility_rules": ["opt_abilities"]
           }
         ]
       },
       {
         "name": "in the back on a pillar",
-        "map_locations": [
-          {
-            "map": "theatre",
-            "x": 650,
-            "y": 860
-          }
-        ],
+        "map_locations": [{"map": "theatre", "x": 650, "y": 860}],
         "sections": [
           {
             "name": "Health",
@@ -235,25 +163,19 @@
             "chest_unopened_img": "images/items/heartpiece-Full.png",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_health" ]
+            "visibility_rules": ["opt_health"]
           }
         ]
       },
       {
         "name": "behind the locked door",
-        "map_locations": [
-          {
-            "map": "theatre",
-            "x": 450,
-            "y": 860
-          }
-        ],
+        "map_locations": [{"map": "theatre", "x": 450, "y": 860}],
         "sections": [
           {
             "name": "Ability",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
+            "visibility_rules": ["opt_abilities"]
           }
         ]
       }

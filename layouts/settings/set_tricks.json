@@ -1,0 +1,45 @@
+{"set_tricks": {
+  "type": "array",
+  "content": [
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_momentumConservation"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_singleWallWallkick"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_reverseWallkicks"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_sunsetterFlipAbuse"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_ascendantLightAbuse"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_movement"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_clingAbuse"
+    },
+    {
+      "type": "item",
+      "margin": "0, 4, 0, 0",
+      "item": "opt_knowledge"
+    }
+  ]
+}}

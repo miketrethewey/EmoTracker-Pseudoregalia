@@ -1,0 +1,12 @@
+{"powerups_grid": {
+  "type": "itemgrid",
+  "h_alignment": "stretch",
+  "item_margin": "4,4",
+  "item_size": "36",
+  "rows": [
+    ["dreambreaker", "indignation", "sungreaves"],
+    ["slide", "solarwind", "sunsetter"],
+    ["strikebreak", "clinggem", "ascendantlight"],
+    ["soulcutter"]
+  ]
+}}

@@ -1,0 +1,62 @@
+{"tabs_maps": {
+  "type": "tabbed",
+  "dock": "top",
+  "tabs": [
+    {
+      "title": "Dilapidated Dungeon",
+      "content": {
+        "type": "map",
+        "maps": ["dungeon"]
+      }
+    },
+    {
+      "title": "Castle Sansa",
+      "content": {
+        "type": "map",
+        "maps": ["lowerCastle"]
+      }
+    },
+    {
+      "title": "Listless Library",
+      "content": {
+        "type": "map",
+        "maps": ["library"]
+      }
+    },
+    {
+      "title": "Sansa Keep",
+      "content": {
+        "type": "map",
+        "maps": ["keep"]
+      }
+    },
+    {
+      "title": "Empty Bailey",
+      "content": {
+        "type": "map",
+        "maps": ["bailey"]
+      }
+    },
+    {
+      "title": "Underbelly",
+      "content": {
+        "type": "map",
+        "maps": ["caves"]
+      }
+    },
+    {
+      "title": "Tower Ruins",
+      "content": {
+        "type": "map",
+        "maps": ["tower"]
+      }
+    },
+    {
+      "title": "Twilight Theatre",
+      "content": {
+        "type": "map",
+        "maps": ["theatre"]
+      }
+    }
+  ]
+}}

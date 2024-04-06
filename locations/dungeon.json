@@ -1,37 +1,26 @@
 [
   {
     "name": "Dilapidated Dungeon",
+    "note":"L::EarlyPrison",
     "chest_unopened_img": "images/ability_unopened.png",
     "chest_opened_img": "images/ability_opened.png",
     "color": "#0004fc",
     "children": [
       {
         "name": "the time trial in the starting room",
-        "map_locations": [
-          {
-            "map": "dungeon",
-            "x": 2144,
-            "y": 976
-          }
-        ],
+        "map_locations": [{"map": "dungeon", "x": 2144, "y": 976}],
         "sections": [
           {
             "name": "Outfit",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_outfits" ]
+            "visibility_rules": ["opt_outfits"]
           }
         ]
       },
       {
         "name": "the goatling who fell out his cage",
-        "map_locations": [
-          {
-            "map": "dungeon",
-            "x": 2144,
-            "y": 880
-          }
-        ],
+        "map_locations": [{"map": "dungeon", "x": 2144, "y": 880}],
         "sections": [
           {
             "name": "Goatling",
@@ -39,19 +28,13 @@
             "chest_unopened_img": "images/goatling_unopened.png",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_goatlings" ]
+            "visibility_rules": ["opt_goatlings"]
           }
         ]
       },
       {
         "name": "where the first health piece is",
-        "map_locations": [
-          {
-            "map": "dungeon",
-            "x": 1840,
-            "y": 708
-          }
-        ],
+        "map_locations": [{"map": "dungeon", "x": 1840, "y": 708}],
         "sections": [
           {
             "name": "Health",
@@ -59,73 +42,49 @@
             "chest_unopened_img": "images/items/heartpiece-Full.png",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_health" ]
+            "visibility_rules": ["opt_health"]
           }
         ]
       },
       {
         "name": "where dream breaker normally is",
-        "map_locations": [
-          {
-            "map": "dungeon",
-            "x": 2152,
-            "y": 364
-          }
-        ],
+        "map_locations": [{"map": "dungeon", "x": 2152, "y": 364}],
         "sections": [
           {
             "name": "Ability",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
+            "visibility_rules": ["opt_abilities"]
           }
         ]
       },
       {
         "name": "where slide normally is",
-        "map_locations": [
-          {
-            "map": "dungeon",
-            "x": 784,
-            "y": 512
-          }
-        ],
+        "map_locations": [{"map": "dungeon", "x": 784, "y": 512}],
         "sections": [
           {
             "name": "Abilities",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
+            "visibility_rules": ["opt_abilities"]
           }
         ]
       },
       {
         "name": "black hole parkour off the beaten path",
-        "map_locations": [
-          {
-            "map": "dungeon",
-            "x": 672,
-            "y": 1360
-          }
-        ],
+        "map_locations": [{"map": "dungeon", "x": 672, "y": 1360}],
         "sections": [
           {
             "name": "Ability",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_abilities" ]
+            "visibility_rules": ["opt_abilities"]
           }
         ]
       },
       {
         "name": "up in the rafters",
-        "map_locations": [
-          {
-            "map": "dungeon",
-            "x": 1408,
-            "y": 560
-          }
-        ],
+        "map_locations": [{"map": "dungeon", "x": 1408, "y": 560}],
         "sections": [
           {
             "name": "Small Key",
@@ -133,19 +92,13 @@
             "chest_unopened_img": "images/items/tex_key.png",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_smallKeys" ]
+            "visibility_rules": ["opt_smallKeys"]
           }
         ]
       },
       {
         "name": "missable high walled room",
-        "map_locations": [
-          {
-            "map": "dungeon",
-            "x": 1488,
-            "y": 80
-          }
-        ],
+        "map_locations": [{"map": "dungeon", "x": 1488, "y": 80}],
         "sections": [
           {
             "name": "Health",
@@ -153,19 +106,13 @@
             "chest_unopened_img": "images/items/heartpiece-Full.png",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_health" ]
+            "visibility_rules": ["opt_health"]
           }
         ]
       },
       {
         "name": "strong eyes' lair",
-        "map_locations": [
-          {
-            "map": "dungeon",
-            "x": 1856,
-            "y": 80
-          }
-        ],
+        "map_locations": [{"map": "dungeon", "x": 1856, "y": 80}],
         "sections": [
           {
             "name": "Small Key",
@@ -173,7 +120,7 @@
             "chest_unopened_img": "images/items/tex_key.png",
             "access_rules": [],
             "item_count": 1,
-            "visibility_rules": [ "opt_smallKeys" ]
+            "visibility_rules": ["opt_smallKeys"]
           }
         ]
       }
