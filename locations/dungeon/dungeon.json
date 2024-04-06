@@ -132,7 +132,7 @@
       },
       {
         "name": "Dilapidated Dungeon:Strong Eyes",
-        "access_rules": ["@Strong Eyes/Access"],
+        "access_rules": ["@StrongEyes/Access"],
         "children": [
           {
             "name": "up in the rafters",
