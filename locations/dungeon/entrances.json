@@ -44,8 +44,8 @@
           {
             "name": "Access",
             "access_rules": [
-                "@Late Prison/Access,$PEntryUnderBelly|Wall that Sucks",
-                "@PrisonHole/Access,ascendantlight"
+              "@Late Prison/Access,$PEntryUnderBelly|Wall that Sucks",
+              "@PrisonHole/Access,ascendantlight"
             ],
             "item_count": 1
           }
@@ -67,8 +67,8 @@
           {
             "name": "Access",
             "access_rules": [
-                "@Late Prison/Access,slide",
-                "@CsMain/Access,$EarlyPrison|Shortcut near Strong Eyes"
+              "@Late Prison/Access,slide",
+              "@CsMain/Access,$EarlyPrison|Shortcut near Strong Eyes"
             ],
             "item_count": 1
           }
