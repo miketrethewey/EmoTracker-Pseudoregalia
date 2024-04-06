@@ -108,6 +108,12 @@
     "codes": "aerialfinesse,af"
   },
   {
+    "name": "Heliacal Power",
+    "type": "toggle",
+    "img": "images/items/icon_heliacalPower.png",
+    "codes": "heliacalpower,hp"
+  },
+  {
     "name": "Heart Pieces",
     "type": "progressive",
     "stages": [

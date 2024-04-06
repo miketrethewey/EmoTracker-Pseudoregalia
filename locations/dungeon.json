@@ -1,18 +1,20 @@
 [
   {
     "name": "Dilapidated Dungeon",
-    "note":"L::EarlyPrison",
     "chest_unopened_img": "images/ability_unopened.png",
     "chest_opened_img": "images/ability_opened.png",
     "color": "#0004fc",
     "children": [
       {
         "name": "the time trial in the starting room",
+        "note": "L::EarlyPrison",
         "map_locations": [{"map": "dungeon", "x": 2144, "y": 976}],
         "sections": [
           {
             "name": "Outfit",
-            "access_rules": [],
+            "access_rules": [
+              "dreambreaker,solarwind,sungreaves,clinggem:6,sunsetter"
+            ],
             "item_count": 1,
             "visibility_rules": ["opt_outfits"]
           }
@@ -20,13 +22,14 @@
       },
       {
         "name": "the goatling who fell out his cage",
+        "note": "L::EarlyPrison",
         "map_locations": [{"map": "dungeon", "x": 2144, "y": 880}],
         "sections": [
           {
             "name": "Goatling",
             "chest_opened_img": "images/goatling_opened.png",
             "chest_unopened_img": "images/goatling_unopened.png",
-            "access_rules": [],
+            "access_rules": [""],
             "item_count": 1,
             "visibility_rules": ["opt_goatlings"]
           }
@@ -34,13 +37,21 @@
       },
       {
         "name": "where the first health piece is",
+        "note": "L::EarlyPrison",
         "map_locations": [{"map": "dungeon", "x": 1840, "y": 708}],
         "sections": [
           {
             "name": "Health",
             "chest_opened_img": "images/heartpiece-Full_opened.png",
             "chest_unopened_img": "images/items/heartpiece-Full.png",
-            "access_rules": [],
+            "access_rules": [
+              "sunsetter",
+              "ascendantlight",
+              "solarwind,$trick|movement",
+              "clinggem:4,$trick|clingabuse",
+              "heliacalpower",
+              "@CsMain"
+            ],
             "item_count": 1,
             "visibility_rules": ["opt_health"]
           }
@@ -48,11 +59,17 @@
       },
       {
         "name": "where dream breaker normally is",
+        "note": "L::VDreamBreaker",
         "map_locations": [{"map": "dungeon", "x": 2152, "y": 364}],
         "sections": [
           {
             "name": "Ability",
-            "access_rules": [],
+            "access_rules": [
+              "dreambreaker",
+              "sunsetter,$trick|knowledge|advanced",
+              "sungreaves,$trick|movement|expert,$trick|onewall|advanced",
+              "sungreaves,solarwind,$trick|movement|advanced,$trick|onewall|advanced"
+            ],
             "item_count": 1,
             "visibility_rules": ["opt_abilities"]
           }
@@ -60,11 +77,19 @@
       },
       {
         "name": "where slide normally is",
+        "note": "L::LatePrison",
         "map_locations": [{"map": "dungeon", "x": 784, "y": 512}],
         "sections": [
           {
             "name": "Abilities",
-            "access_rules": [],
+            "access_rules": [
+              "slide",
+              "sungreaves",
+              "sunsetter,heliacalpower",
+              "clinggem:2",
+              "heliacalpower,$trick|movement|advanced",
+              "sunsetter,$trick|movement|advanced"
+            ],
             "item_count": 1,
             "visibility_rules": ["opt_abilities"]
           }
@@ -72,11 +97,16 @@
       },
       {
         "name": "black hole parkour off the beaten path",
+        "note": "L::LatePrison",
         "map_locations": [{"map": "dungeon", "x": 672, "y": 1360}],
         "sections": [
           {
             "name": "Ability",
-            "access_rules": [],
+            "access_rules": [
+              "clinggem:6",
+              "ascendantlight,sungreaves",
+              "sungreaves,solarwind,$trick|movement|advanced,$trick|onewall|advanced"
+            ],
             "item_count": 1,
             "visibility_rules": ["opt_abilities"]
           }
@@ -84,13 +114,17 @@
       },
       {
         "name": "up in the rafters",
+        "note": "L::StrongEyes",
         "map_locations": [{"map": "dungeon", "x": 1408, "y": 560}],
         "sections": [
           {
             "name": "Small Key",
             "chest_opened_img": "images/tex_key_opened.png",
             "chest_unopened_img": "images/items/tex_key.png",
-            "access_rules": [],
+            "access_rules": [
+              "sungreaves,$has_or|sunsetter|solarwind",
+              "clinggem:4,$trick|clingabuse|advanced"
+            ],
             "item_count": 1,
             "visibility_rules": ["opt_smallKeys"]
           }
@@ -98,13 +132,19 @@
       },
       {
         "name": "missable high walled room",
+        "note": "L::StrongEyes",
         "map_locations": [{"map": "dungeon", "x": 1488, "y": 80}],
         "sections": [
           {
             "name": "Health",
             "chest_opened_img": "images/heartpiece-Full_opened.png",
             "chest_unopened_img": "images/items/heartpiece-Full.png",
-            "access_rules": [],
+            "access_rules": [
+              "dreambreaker,sungreaves",
+              "dreambreaker,clinggem:4",
+              "sunsetter,$trick|knowledge,sungreaves",
+              "sunsetter,$trick|knowledge,clinggem:4"
+            ],
             "item_count": 1,
             "visibility_rules": ["opt_health"]
           }
@@ -112,13 +152,14 @@
       },
       {
         "name": "strong eyes' lair",
+        "note": "L::StrongEyes",
         "map_locations": [{"map": "dungeon", "x": 1856, "y": 80}],
         "sections": [
           {
             "name": "Small Key",
             "chest_opened_img": "images/tex_key_opened.png",
             "chest_unopened_img": "images/items/tex_key.png",
-            "access_rules": [],
+            "access_rules": ["dreambreaker"],
             "item_count": 1,
             "visibility_rules": ["opt_smallKeys"]
           }

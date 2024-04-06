@@ -1,3 +1,8 @@
+-- LOGIC
+print("Loading Logic")
+ScriptHost:LoadScript("scripts/logic/logic.lua")
+print("")
+
 -- ITEMS
 print("Loading Items")
 Tracker:AddItems("items/items.json")
