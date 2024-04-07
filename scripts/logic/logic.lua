@@ -19,12 +19,26 @@ function has(item, amount)
     end
 end
 
-function has_or(itemOne, itemTwo)
+function has_or(
+    itemOne,
+    itemTwo,
+    itemThree,
+    itemFour
+)
     ret = 0
-    itemOne = itemOne or ""
-    itemTwo = itemTwo or ""
+    itemOne     = itemOne or ""
+    itemTwo     = itemTwo or ""
+    itemThree   = itemThree or ""
+    itemFour    = itemFour or ""
 
-    for k,item in pairs({itemOne,itemTwo}) do
+    for k,item in pairs(
+        {
+            itemOne,
+            itemTwo,
+            itemThree,
+            itemFour
+        }
+    ) do
         if ret == 0 and has(item) then
             ret = 1
         end

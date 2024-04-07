@@ -1,0 +1,141 @@
+[
+  {
+    "name": "Lower Castle Entrances",
+    "children": [
+      {
+        "name": "CsPrisonEntry",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": ["@CsMain/Access", "@PEntryCastle/Access"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "CsLibraryEntry",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": [
+              "@MainLibrary/Access",
+              "@CsMain/Access,dreambreaker"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "CsTheatreEntryNearPrison",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": [
+              "@PillarRoom/Access",
+              "@CsMain/Access,slide,$trick|movement|advanced,$trick|momentum|advanced",
+              "@CsMain/Access,sunsetter,sungreaves",
+              "@CsMain/Access,heliacalpower,solarwind",
+              "@CsMain/Access,sungreaves,$trick|movement",
+              "@CsMain/Access,sunsetter,$trick|movement|advanced",
+              "@CsMain/Access,clinggem:4,$trick|clingabuse",
+              "@CsMain/Access,slide,solarwind,$trick|movement"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "CsOldSolftlockRoom",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": [
+              "@CsMain/Access,clinggem:2",
+              "@CsTheatreEntrance,solarwind,heliacalpower,$trick|movement",
+              "@CsTheatreEntrance,slide,clinggem:2,$trick|movement|advanced"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "CsKeepClimbEntrance",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": ["@CsMain/Access,smallkey"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "CsKeepEntryMain",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": ["@CsMain/Access", "@SansaKeep/Access"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "CsKeepEntryRamp",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": [
+              "@CsMain/Access,$has_or|dreambreaker|sungreaves|sunsetter",
+              "@CsMain/Access,$trick|movement",
+              "@SansaKeep/Access"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "CsBaileyEntry",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": ["@CsMain/Access", "@EbEntryCastle/Access"],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "CsMain",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": [
+              "@CsPrisonEntry/Access",
+              "@CsBaileyEntry/Access",
+              "@CsTheatreEntryNearPrison/Access",
+              "@CsOldSolftlockRoom/Access,clinggem:4",
+              "@CsOldSolftlockRoom/Access,sungreaves,$trick|movement|expert,$trick|onewall|advanced",
+              "@CsOldSolftlockRoom/Access,sungreaves,heliacalpower,$trick|movement|advanced,$trick|onewall|advanced",
+              "dreambreaker,@CsLibraryEntry/Access",
+              "dreambreaker,@CsKeepClimbEntrance/Access,smallkey"
+            ],
+            "item_count": 1
+          }
+        ]
+      },
+      {
+        "name": "CsTheatreEntrance",
+        "sections": [
+          {
+            "name": "Access",
+            "access_rules": [
+              "@ThCastleEntryMain/Access",
+              "@CsOldSolftlockRoom/Access,sunsetter,clinggem:4,heliacalpower",
+              "solarwind,sungreaves,$trick|movement|advanced",
+              "clinggem:2,sungreaves,sunsetter,$trick|onewall|advanced,$trick|movement|advanced"
+            ],
+            "item_count": 1
+          }
+        ]
+      }
+    ]
+  }
+]
